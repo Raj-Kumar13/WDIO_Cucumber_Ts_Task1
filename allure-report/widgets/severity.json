@@ -1,0 +1,11 @@
+[ {
+  "uid" : "9f3828f0e669ac61",
+  "name" : "Try to create User and select Product add to cart Placing Order",
+  "time" : {
+    "start" : 1638111508616,
+    "stop" : 1638111552217,
+    "duration" : 43601
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

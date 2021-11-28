@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Creating a User and  buying Product",
+    "children" : [ {
+      "name" : "Try to create User and select Product add to cart Placing Order",
+      "uid" : "9f3828f0e669ac61",
+      "parentUid" : "d913ed440f792046529a40f0515110b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638111508616,
+        "stop" : 1638111552217,
+        "duration" : 43601
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.45" ]
+    } ],
+    "uid" : "d913ed440f792046529a40f0515110b8"
+  } ]
+}
