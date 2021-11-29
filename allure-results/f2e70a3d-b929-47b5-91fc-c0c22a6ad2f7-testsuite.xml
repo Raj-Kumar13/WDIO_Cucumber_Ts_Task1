@@ -1,0 +1,172 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638199740916' stop='1638199749342'>
+    <name>Creating a User and  buying Product</name>
+    <title>Creating a User and  buying Product</title>
+    <test-cases>
+        <test-case start='1638199740968' status='passed' stop='1638199749341'>
+            <name>create User and select Product add to cart Placing Order</name>
+            <title>create User and select Product add to cart Placing Order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1638199740970' status='passed' stop='1638199746881'>
+                    <name>Given landing on automation pratices page</name>
+                    <title>Given landing on automation pratices page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199746881' status='passed' stop='1638199749320'>
+                    <name>When click on sign-in button</name>
+                    <title>When click on sign-in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749320' status='canceled' stop='1638199749330'>
+                    <name>Then landing on "AUTHENTICATION" page</name>
+                    <title>Then landing on "AUTHENTICATION" page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749330' status='canceled' stop='1638199749330'>
+                    <name>When provide email id click on create an account</name>
+                    <title>When provide email id click on create an account</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749330' status='canceled' stop='1638199749332'>
+                    <name>Then landing on "CREATE AN ACCOUNT" page</name>
+                    <title>Then landing on "CREATE AN ACCOUNT" page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749332' status='canceled' stop='1638199749332'>
+                    <name>When fill personal infromation click register</name>
+                    <title>When fill personal infromation click register</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749333' status='canceled' stop='1638199749333'>
+                    <name>Then should be landing on "MY ACCOUNT" page</name>
+                    <title>Then should be landing on "MY ACCOUNT" page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749333' status='canceled' stop='1638199749333'>
+                    <name>When click on Women element from header menu</name>
+                    <title>When click on Women element from header menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749333' status='canceled' stop='1638199749333'>
+                    <name>Then should be navigated to 'WOMEN' category page</name>
+                    <title>Then should be navigated to 'WOMEN' category page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749333' status='canceled' stop='1638199749333'>
+                    <name>When select the Product and click add to cart</name>
+                    <title>When select the Product and click add to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749333' status='canceled' stop='1638199749333'>
+                    <name>Then should get pop-up Product successfully added to your shopping cart</name>
+                    <title>Then should get pop-up Product successfully added to your shopping cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749333' status='canceled' stop='1638199749334'>
+                    <name>When click the Proceed to checkout button to navigate SHOPPING-CART SUMMARY page</name>
+                    <title>When click the Proceed to checkout button to navigate SHOPPING-CART SUMMARY page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749334' status='canceled' stop='1638199749334'>
+                    <name>Then Should be navigated to 'SHOPPING-CART SUMMARY' page</name>
+                    <title>Then Should be navigated to 'SHOPPING-CART SUMMARY' page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749334' status='canceled' stop='1638199749334'>
+                    <name>When click the Proceed to checkout botton of SHOPPING-CART SUMMARY</name>
+                    <title>When click the Proceed to checkout botton of SHOPPING-CART SUMMARY</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749334' status='canceled' stop='1638199749336'>
+                    <name>Then should be navigated to 'ADDRESSES' Page</name>
+                    <title>Then should be navigated to 'ADDRESSES' Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749336' status='canceled' stop='1638199749336'>
+                    <name>When click the Proceed to checkout botton of Address Page</name>
+                    <title>When click the Proceed to checkout botton of Address Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749337' status='canceled' stop='1638199749337'>
+                    <name>Then should be navigated to 'SHIPPING' page</name>
+                    <title>Then should be navigated to 'SHIPPING' page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749337' status='canceled' stop='1638199749337'>
+                    <name>When click the checkbox of Terms and conditions box</name>
+                    <title>When click the checkbox of Terms and conditions box</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749337' status='canceled' stop='1638199749337'>
+                    <name>And click the Proceed to checkout boutton of Shopping page</name>
+                    <title>And click the Proceed to checkout boutton of Shopping page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749337' status='canceled' stop='1638199749338'>
+                    <name>Then should be navigated to 'PLEASE CHOOSE YOUR PAYMENT METHOD' Page</name>
+                    <title>Then should be navigated to 'PLEASE CHOOSE YOUR PAYMENT METHOD' Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749339' status='canceled' stop='1638199749339'>
+                    <name>When select any one Payment method from display and click</name>
+                    <title>When select any one Payment method from display and click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749339' status='canceled' stop='1638199749339'>
+                    <name>Then should me navigate to 'ORDER SUMMARY'</name>
+                    <title>Then should me navigate to 'ORDER SUMMARY'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749339' status='canceled' stop='1638199749339'>
+                    <name>When click the CONFIRM MY ORDER button</name>
+                    <title>When click the CONFIRM MY ORDER button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749339' status='canceled' stop='1638199749339'>
+                    <name>Then You will navigated to 'ORDER CONFIRMATION DETAILS' Page</name>
+                    <title>Then You will navigated to 'ORDER CONFIRMATION DETAILS' Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638199749339' status='canceled' stop='1638199749339'>
+                    <name>And You will receive Your order on My Store is complete message</name>
+                    <title>And You will receive Your order on My Store is complete message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

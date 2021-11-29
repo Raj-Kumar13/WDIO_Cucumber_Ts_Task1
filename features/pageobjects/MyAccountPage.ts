@@ -1,4 +1,4 @@
-import Data from '../Data/Data.json'
+import Data from '../TestData/Data.json'
 class MyAccountPage{
     get myAccountElement(){
         return $("//h1[text()='My account']");

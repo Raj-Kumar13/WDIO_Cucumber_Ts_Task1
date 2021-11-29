@@ -4,6 +4,7 @@ class LandingPage{
 
    async openPage(){
         await browser.url("http://automationpractice.com/index.php");
+        await browser.maximizeWindow();
     }
 
     async clickSignIn(){

@@ -1,0 +1,187 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638197662394' stop='1638197689468'>
+    <name>Creating a User and  buying Product</name>
+    <title>Creating a User and  buying Product</title>
+    <test-cases>
+        <test-case start='1638197662445' status='broken' stop='1638197689463'>
+            <name>create User and select Product add to cart Placing Order</name>
+            <title>create User and select Product add to cart Placing Order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1638197662448' status='passed' stop='1638197671396'>
+                    <name>Given landing on automation pratices page</name>
+                    <title>Given landing on automation pratices page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197671396' status='passed' stop='1638197674869'>
+                    <name>When click on sign-in button</name>
+                    <title>When click on sign-in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197674870' status='passed' stop='1638197674925'>
+                    <name>Then landing on 'AUTHENTICATION' page</name>
+                    <title>Then landing on 'AUTHENTICATION' page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197674925' status='passed' stop='1638197675155'>
+                    <name>When provide email id click on create an account</name>
+                    <title>When provide email id click on create an account</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197675155' status='passed' stop='1638197678954'>
+                    <name>Then landing on CREATE AN ACCOUNT page</name>
+                    <title>Then landing on CREATE AN ACCOUNT page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197678954' status='passed' stop='1638197684870'>
+                    <name>When fill personal infromation click register</name>
+                    <title>When fill personal infromation click register</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197684870' status='passed' stop='1638197684920'>
+                    <name>Then should be landing on MY ACCOUNT page</name>
+                    <title>Then should be landing on MY ACCOUNT page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197684920' status='passed' stop='1638197686777'>
+                    <name>When click on Women element from header menu</name>
+                    <title>When click on Women element from header menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197686777' status='broken' stop='1638197689463'>
+                    <name>Then should be navigated to WOMEN category page</name>
+                    <title>Then should be navigated to WOMEN category page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689463' status='canceled' stop='1638197689463'>
+                    <name>When select the Product and click add to cart</name>
+                    <title>When select the Product and click add to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689463' status='canceled' stop='1638197689463'>
+                    <name>Then should get pop-up Product successfully added to your shopping cart</name>
+                    <title>Then should get pop-up Product successfully added to your shopping cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689464' status='canceled' stop='1638197689464'>
+                    <name>When click the Proceed to checkout button to navigate SHOPPING-CART SUMMARY page</name>
+                    <title>When click the Proceed to checkout button to navigate SHOPPING-CART SUMMARY page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689464' status='canceled' stop='1638197689464'>
+                    <name>Then Should be navigated to SHOPPING-CART SUMMARY page</name>
+                    <title>Then Should be navigated to SHOPPING-CART SUMMARY page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689464' status='canceled' stop='1638197689464'>
+                    <name>When click the Proceed to checkout botton of SHOPPING-CART SUMMARY</name>
+                    <title>When click the Proceed to checkout botton of SHOPPING-CART SUMMARY</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689464' status='canceled' stop='1638197689464'>
+                    <name>Then should be navigated to Address Page</name>
+                    <title>Then should be navigated to Address Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689465' status='canceled' stop='1638197689465'>
+                    <name>When click the Proceed to checkout botton of Address Page</name>
+                    <title>When click the Proceed to checkout botton of Address Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689465' status='canceled' stop='1638197689465'>
+                    <name>Then should be navigated to Shopping page</name>
+                    <title>Then should be navigated to Shopping page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689465' status='canceled' stop='1638197689465'>
+                    <name>When click the checkbox of Terms and conditions box</name>
+                    <title>When click the checkbox of Terms and conditions box</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689465' status='canceled' stop='1638197689465'>
+                    <name>And click the Proceed to checkout boutton of Shopping page</name>
+                    <title>And click the Proceed to checkout boutton of Shopping page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689465' status='canceled' stop='1638197689465'>
+                    <name>Then should be navigated to Payment Page</name>
+                    <title>Then should be navigated to Payment Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689465' status='canceled' stop='1638197689466'>
+                    <name>When select any one Payment method from display and click</name>
+                    <title>When select any one Payment method from display and click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689466' status='canceled' stop='1638197689466'>
+                    <name>Then should me navigate to ORDER SUMMARY</name>
+                    <title>Then should me navigate to ORDER SUMMARY</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689466' status='canceled' stop='1638197689466'>
+                    <name>When click the CONFIRM MY ORDER button</name>
+                    <title>When click the CONFIRM MY ORDER button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689466' status='canceled' stop='1638197689466'>
+                    <name>Then You will navigated to ORDER CONFIRMATION DETAILS Page</name>
+                    <title>Then You will navigated to ORDER CONFIRMATION DETAILS Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638197689466' status='canceled' stop='1638197689466'>
+                    <name>And You will receive Your order on My Store is complete message</name>
+                    <title>And You will receive Your order on My Store is complete message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>RequestError: read ECONNRESET</message>
+                <stack-trace>RequestError: read ECONNRESET
+                    at ClientRequest.&lt;anonymous> (D:\CG_VSCode_WDIO\Task_WDIO_BDD_TS\node_modules\got\dist\source\core\index.js:962:111)
+                    at Object.onceWrapper (events.js:520:26)
+                    at ClientRequest.emit (events.js:412:35)
+                    at ClientRequest.emit (domain.js:470:12)
+                    at ClientRequest.origin.emit (D:\CG_VSCode_WDIO\Task_WDIO_BDD_TS\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (_http_client.js:475:9)
+                    at Socket.emit (events.js:400:28)
+                    at Socket.emit (domain.js:470:12)
+                    at emitErrorNT (internal/streams/destroy.js:106:8)
+                    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+                    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

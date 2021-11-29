@@ -1,0 +1,189 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638202332271' stop='1638202384079'>
+    <name>Creating a User and  buying Product</name>
+    <title>Creating a User and  buying Product</title>
+    <test-cases>
+        <test-case start='1638202332332' status='failed' stop='1638202384074'>
+            <name>create User and select Product add to cart Placing Order</name>
+            <title>create User and select Product add to cart Placing Order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1638202332335' status='passed' stop='1638202340692'>
+                    <name>Given landing on automation pratices page</name>
+                    <title>Given landing on automation pratices page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202340692' status='passed' stop='1638202343119'>
+                    <name>When click on sign-in button</name>
+                    <title>When click on sign-in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202343119' status='passed' stop='1638202343175'>
+                    <name>Then landing on "AUTHENTICATION" Page</name>
+                    <title>Then landing on "AUTHENTICATION" Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202343175' status='passed' stop='1638202343373'>
+                    <name>When provide email id click on create an account</name>
+                    <title>When provide email id click on create an account</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202343373' status='passed' stop='1638202346452'>
+                    <name>Then landing on "CREATE AN ACCOUNT" page</name>
+                    <title>Then landing on "CREATE AN ACCOUNT" page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202346453' status='passed' stop='1638202351852'>
+                    <name>When fill personal infromation click register</name>
+                    <title>When fill personal infromation click register</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202351852' status='passed' stop='1638202351902'>
+                    <name>Then should be landing on "MY ACCOUNT" page</name>
+                    <title>Then should be landing on "MY ACCOUNT" page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202351902' status='passed' stop='1638202355359'>
+                    <name>When click on Women element from header menu</name>
+                    <title>When click on Women element from header menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202355359' status='passed' stop='1638202355391'>
+                    <name>Then should be navigated to "WOMEN" category page</name>
+                    <title>Then should be navigated to "WOMEN" category page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202355392' status='passed' stop='1638202355534'>
+                    <name>When select the Product and click add to cart</name>
+                    <title>When select the Product and click add to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202355534' status='passed' stop='1638202358089'>
+                    <name>Then should get pop-up Product successfully added to your shopping cart</name>
+                    <title>Then should get pop-up Product successfully added to your shopping cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202358089' status='passed' stop='1638202361847'>
+                    <name>When click the Proceed to checkout button to navigate SHOPPING-CART SUMMARY page</name>
+                    <title>When click the Proceed to checkout button to navigate SHOPPING-CART SUMMARY page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202361847' status='passed' stop='1638202361890'>
+                    <name>Then Should be navigated to "SHOPPING-CART SUMMARY" Page</name>
+                    <title>Then Should be navigated to "SHOPPING-CART SUMMARY" Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202361891' status='passed' stop='1638202364984'>
+                    <name>When click the Proceed to checkout botton of SHOPPING-CART SUMMARY</name>
+                    <title>When click the Proceed to checkout botton of SHOPPING-CART SUMMARY</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202364984' status='passed' stop='1638202365016'>
+                    <name>Then should be navigated to "ADDRESSES" page</name>
+                    <title>Then should be navigated to "ADDRESSES" page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202365017' status='passed' stop='1638202366962'>
+                    <name>When click the Proceed to checkout botton of Address Page</name>
+                    <title>When click the Proceed to checkout botton of Address Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202366962' status='passed' stop='1638202366999'>
+                    <name>Then should be navigated to "SHIPPING" page</name>
+                    <title>Then should be navigated to "SHIPPING" page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202366999' status='passed' stop='1638202367070'>
+                    <name>When click the checkbox of Terms and conditions box</name>
+                    <title>When click the checkbox of Terms and conditions box</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202367071' status='passed' stop='1638202368602'>
+                    <name>And click the Proceed to checkout boutton of Shopping page</name>
+                    <title>And click the Proceed to checkout boutton of Shopping page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202368602' status='passed' stop='1638202368632'>
+                    <name>Then should be navigated to "PLEASE CHOOSE YOUR PAYMENT METHOD" Page</name>
+                    <title>Then should be navigated to "PLEASE CHOOSE YOUR PAYMENT METHOD" Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202368632' status='passed' stop='1638202369849'>
+                    <name>When select any one Payment method from display and click</name>
+                    <title>When select any one Payment method from display and click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202369849' status='passed' stop='1638202369879'>
+                    <name>Then should me navigate to "ORDER SUMMARY"</name>
+                    <title>Then should me navigate to "ORDER SUMMARY"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202369879' status='passed' stop='1638202374033'>
+                    <name>When click the CONFIRM MY ORDER button</name>
+                    <title>When click the CONFIRM MY ORDER button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202374033' status='failed' stop='1638202384074'>
+                    <name>Then You will navigated to "ORDER CONFIRMATION DETAILS" Page</name>
+                    <title>Then You will navigated to "ORDER CONFIRMATION DETAILS" Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638202384074' status='canceled' stop='1638202384075'>
+                    <name>And You will receive Your order on My Store is complete message</name>
+                    <title>And You will receive Your order on My Store is complete message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Expect $(`.page-heading`) to have text containing</message>
+                <stack-trace>Error: Expect $(`.page-heading`) to have text containing
+                
+                Expected: "ORDER CONFIRMATION DETAILS"
+                Received: "ORDER CONFIRMATION"
+                    at D:\CG_VSCode_WDIO\Task_WDIO_BDD_TS\features\step-definitions\automation.ts:140:73
+                    at step (D:\CG_VSCode_WDIO\Task_WDIO_BDD_TS\features\step-definitions\automation.ts:33:23)
+                    at Object.next (D:\CG_VSCode_WDIO\Task_WDIO_BDD_TS\features\step-definitions\automation.ts:14:53)
+                    at D:\CG_VSCode_WDIO\Task_WDIO_BDD_TS\features\step-definitions\automation.ts:8:71
+                    at new Promise (&lt;anonymous>)
+                    at __awaiter (D:\CG_VSCode_WDIO\Task_WDIO_BDD_TS\features\step-definitions\automation.ts:4:12)
+                    at World.&lt;anonymous> (D:\CG_VSCode_WDIO\Task_WDIO_BDD_TS\features\step-definitions\automation.ts:139:62)
+                    at World.executeAsync (D:\CG_VSCode_WDIO\Task_WDIO_BDD_TS\node_modules\@wdio\utils\build\shim.js:325:27)
+                    at World.testFrameworkFnWrapper (D:\CG_VSCode_WDIO\Task_WDIO_BDD_TS\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
