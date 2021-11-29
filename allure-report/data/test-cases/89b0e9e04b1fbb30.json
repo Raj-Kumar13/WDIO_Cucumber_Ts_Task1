@@ -1,12 +1,12 @@
 {
-  "uid" : "9f3828f0e669ac61",
-  "name" : "Try to create User and select Product add to cart Placing Order",
-  "fullName" : "Creating a User and  buying Product.Try to create User and select Product add to cart Placing Order",
-  "historyId" : "2997338afafdcd24259235583b1176f3",
+  "uid" : "89b0e9e04b1fbb30",
+  "name" : "create User and select Product add to cart Placing Order",
+  "fullName" : "Creating a User and  buying Product.create User and select Product add to cart Placing Order",
+  "historyId" : "ae86d6e634fdf81f7f6acd8603def121",
   "time" : {
-    "start" : 1638111508616,
-    "stop" : 1638111552217,
-    "duration" : 43601
+    "start" : 1638183659476,
+    "stop" : 1638183720002,
+    "duration" : 60526
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -19,383 +19,383 @@
     "steps" : [ {
       "name" : "Given landing on automation pratices page",
       "time" : {
-        "start" : 1638111508638,
-        "stop" : 1638111515189,
-        "duration" : 6551
+        "start" : 1638183659479,
+        "stop" : 1638183671351,
+        "duration" : 11872
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "When click on sign-in button",
       "time" : {
-        "start" : 1638111515189,
-        "stop" : 1638111518202,
-        "duration" : 3013
+        "start" : 1638183671352,
+        "stop" : 1638183673802,
+        "duration" : 2450
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Then landing on AUTHENTICATION page",
       "time" : {
-        "start" : 1638111518202,
-        "stop" : 1638111519510,
-        "duration" : 1308
+        "start" : 1638183673802,
+        "stop" : 1638183673972,
+        "duration" : 170
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "When provide email id click on create an account",
       "time" : {
-        "start" : 1638111519510,
-        "stop" : 1638111519949,
-        "duration" : 439
+        "start" : 1638183673972,
+        "stop" : 1638183674474,
+        "duration" : 502
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Then landing on CREATE AN ACCOUNT page",
       "time" : {
-        "start" : 1638111519949,
-        "stop" : 1638111522604,
-        "duration" : 2655
+        "start" : 1638183674474,
+        "stop" : 1638183678735,
+        "duration" : 4261
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "When fill personal infromation click register",
       "time" : {
-        "start" : 1638111522605,
-        "stop" : 1638111531997,
-        "duration" : 9392
+        "start" : 1638183678736,
+        "stop" : 1638183688624,
+        "duration" : 9888
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Then should be landing on MY ACCOUNT page",
       "time" : {
-        "start" : 1638111531998,
-        "stop" : 1638111532076,
-        "duration" : 78
+        "start" : 1638183688624,
+        "stop" : 1638183688710,
+        "duration" : 86
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "When click on Women element from header menu",
       "time" : {
-        "start" : 1638111532076,
-        "stop" : 1638111536282,
-        "duration" : 4206
+        "start" : 1638183688711,
+        "stop" : 1638183692985,
+        "duration" : 4274
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Then should be navigated to WOMEN category page",
       "time" : {
-        "start" : 1638111536282,
-        "stop" : 1638111536394,
-        "duration" : 112
+        "start" : 1638183692985,
+        "stop" : 1638183693121,
+        "duration" : 136
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "When select the Product and click add to cart",
       "time" : {
-        "start" : 1638111536394,
-        "stop" : 1638111537429,
-        "duration" : 1035
+        "start" : 1638183693121,
+        "stop" : 1638183698676,
+        "duration" : 5555
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Then should get pop-up Product successfully added to your shopping cart",
       "time" : {
-        "start" : 1638111537429,
-        "stop" : 1638111539187,
-        "duration" : 1758
+        "start" : 1638183698676,
+        "stop" : 1638183702035,
+        "duration" : 3359
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "When click the Proceed to checkout button to navigate SHOPPING-CART SUMMARY page",
       "time" : {
-        "start" : 1638111539187,
-        "stop" : 1638111541477,
-        "duration" : 2290
+        "start" : 1638183702035,
+        "stop" : 1638183705772,
+        "duration" : 3737
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Then Should be navigated to SHOPPING-CART SUMMARY page",
       "time" : {
-        "start" : 1638111541478,
-        "stop" : 1638111541535,
-        "duration" : 57
+        "start" : 1638183705772,
+        "stop" : 1638183705930,
+        "duration" : 158
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "When click the Proceed to checkout botton of SHOPPING-CART SUMMARY",
       "time" : {
-        "start" : 1638111541535,
-        "stop" : 1638111543088,
-        "duration" : 1553
+        "start" : 1638183705930,
+        "stop" : 1638183708308,
+        "duration" : 2378
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Then should be navigated to Address Page",
       "time" : {
-        "start" : 1638111543088,
-        "stop" : 1638111543188,
-        "duration" : 100
+        "start" : 1638183708308,
+        "stop" : 1638183708370,
+        "duration" : 62
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "When click the Proceed to checkout botton of Address Page",
       "time" : {
-        "start" : 1638111543188,
-        "stop" : 1638111545291,
-        "duration" : 2103
+        "start" : 1638183708370,
+        "stop" : 1638183710559,
+        "duration" : 2189
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Then should be navigated to Shopping page",
       "time" : {
-        "start" : 1638111545291,
-        "stop" : 1638111545341,
-        "duration" : 50
+        "start" : 1638183710559,
+        "stop" : 1638183710686,
+        "duration" : 127
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "When click the checkbox of Terms and conditions box",
       "time" : {
-        "start" : 1638111545341,
-        "stop" : 1638111545501,
-        "duration" : 160
+        "start" : 1638183710687,
+        "stop" : 1638183710944,
+        "duration" : 257
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "And click the Proceed to checkout boutton of Shopping page",
       "time" : {
-        "start" : 1638111545502,
-        "stop" : 1638111547317,
-        "duration" : 1815
+        "start" : 1638183710944,
+        "stop" : 1638183712825,
+        "duration" : 1881
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Then should be navigated to Payment Page",
       "time" : {
-        "start" : 1638111547317,
-        "stop" : 1638111547363,
-        "duration" : 46
+        "start" : 1638183712825,
+        "stop" : 1638183712916,
+        "duration" : 91
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "When select any one Payment method from display and click",
       "time" : {
-        "start" : 1638111547364,
-        "stop" : 1638111549198,
-        "duration" : 1834
+        "start" : 1638183712917,
+        "stop" : 1638183714524,
+        "duration" : 1607
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Then should me navigate to ORDER SUMMARY",
       "time" : {
-        "start" : 1638111549199,
-        "stop" : 1638111549301,
-        "duration" : 102
+        "start" : 1638183714525,
+        "stop" : 1638183714682,
+        "duration" : 157
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "When click the CONFIRM MY ORDER button",
       "time" : {
-        "start" : 1638111549301,
-        "stop" : 1638111552004,
-        "duration" : 2703
+        "start" : 1638183714682,
+        "stop" : 1638183719772,
+        "duration" : 5090
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Then You will navigated to ORDER CONFIRMATION DETAILS Page",
       "time" : {
-        "start" : 1638111552005,
-        "stop" : 1638111552102,
-        "duration" : 97
+        "start" : 1638183719772,
+        "stop" : 1638183719880,
+        "duration" : 108
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "And You will receive Your order on My Store is complete message",
       "time" : {
-        "start" : 1638111552102,
-        "stop" : 1638111552208,
-        "duration" : 106
+        "start" : 1638183719880,
+        "stop" : 1638183719988,
+        "duration" : 108
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
     "stepsCount" : 25,
     "hasContent" : true
   },
@@ -417,7 +417,7 @@
     "value" : "Creating a User and  buying Product"
   }, {
     "name" : "testMethod",
-    "value" : "Try to create User and select Product add to cart Placing Order"
+    "value" : "create User and select Product add to cart Placing Order"
   }, {
     "name" : "package",
     "value" : "Creating a User and  buying Product"
@@ -438,6 +438,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9f3828f0e669ac61.json",
+  "source" : "89b0e9e04b1fbb30.json",
   "parameterValues" : [ "chrome-96.0.4664.45" ]
 }

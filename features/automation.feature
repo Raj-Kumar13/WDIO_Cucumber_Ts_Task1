@@ -2,7 +2,7 @@ Feature: Creating a User and  buying Product
 
     Feature Description
 
-    Scenario: Try to create User and select Product add to cart Placing Order 
+    Scenario: create User and select Product add to cart Placing Order 
 
         Given landing on automation pratices page
         When click on sign-in button

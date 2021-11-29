@@ -4,14 +4,14 @@
   "children" : [ {
     "name" : "Creating a User and  buying Product",
     "children" : [ {
-      "name" : "Try to create User and select Product add to cart Placing Order",
-      "uid" : "9f3828f0e669ac61",
+      "name" : "create User and select Product add to cart Placing Order",
+      "uid" : "89b0e9e04b1fbb30",
       "parentUid" : "8fa95d52b51604186bb62f04f3d0d199",
       "status" : "passed",
       "time" : {
-        "start" : 1638111508616,
-        "stop" : 1638111552217,
-        "duration" : 43601
+        "start" : 1638183659476,
+        "stop" : 1638183720002,
+        "duration" : 60526
       },
       "flaky" : false,
       "newFailed" : false,
