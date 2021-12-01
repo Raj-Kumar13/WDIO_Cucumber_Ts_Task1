@@ -1,15 +1,16 @@
 import { Given, When, Then } from '@cucumber/cucumber'
 import LandingPage from '../pageobjects/LandingPage'
-import AuthenticationPage from '../pageobjects/AuthenticationPage'
-import CreatePage from '../pageobjects/CreatePage'
-import MyAccountPage from '../pageobjects/MyAccountPage'
-import WomenCategoryPage from '../pageobjects/WomenCategoryPage';
-import CartSummaryPage from '../pageobjects/CartSummaryPage'
-import AddressPage from '../pageobjects/AddressPage';
-import ShoppingPage from '../pageobjects/ShoppingPage'
-import PaymentPage from '../pageobjects/PaymentPage';
-import OrderSummaryPage from '../pageobjects/OrderSummaryPage'
-import OrderConfirmationPage from '../pageobjects/OrderConfirmationPage'
+import AuthenticationPage from '../pageobjects/SignUp/AuthenticationPage'
+import CreatePage from '../pageobjects/SignUp/CreateAccountPage'
+import MyAccountPage from '../pageobjects/SignUp/MyAccountPage'
+import WomenCategoryPage from '../pageobjects/Menu/WomenCategoryPage';
+import CartSummaryPage from '../pageobjects/Cart/CartSummaryPage'
+import AddressPage from '../pageobjects/Cart/AddressPage';
+import ShoppingPage from '../pageobjects/Cart/ShoppingPage'
+import PaymentPage from '../pageobjects/Cart/PaymentPage';
+import OrderSummaryPage from '../pageobjects/Cart/OrderSummaryPage'
+import OrderConfirmationPage from '../pageobjects/Cart/OrderConfirmationPage'
+import faker from 'faker'
 
 Given("landing on automation pratices page", async () => {
      await LandingPage.openPage();
@@ -20,7 +21,6 @@ When("click on sign-in button", async () => {
 })
 //============================================================================================
 Then('landing on {string} Page', async (headerText) => {
-     //await console.log(LandingPage.authenticationHeader.getText());
      await expect(browser).toHaveUrlContaining("authentication");
      await expect(AuthenticationPage.authenticationHeader).toHaveTextContaining(headerText);
 })
@@ -32,29 +32,18 @@ When("provide email id click on create an account", async () => {
 Then("landing on {string} page", async (headerText) => {
      await expect(CreatePage.createPageHeading).toHaveTextContaining(headerText);
 })
+
 When("fill personal infromation click register", async () => {
      await CreatePage.genderElement.click();
-     await CreatePage.firstName();
-     await CreatePage.lastName();
-     //await CreatePage.f_email();
+     await CreatePage.firstNameAndlastName();
      await CreatePage.password();
-     await CreatePage.days();
-     await CreatePage.months();
-     await CreatePage.years();
-     await CreatePage.clickLetterCheckBox();
-     await CreatePage.CheckBox2();
-     await CreatePage.address_firstName();
-     await CreatePage.address_lastName();
+     await CreatePage.dateOfBirth();
+     await CreatePage.click_CheckBoxes();
+     await CreatePage.addressF_nameAndL_name();
      await CreatePage.company();
      await CreatePage.address();
-     await CreatePage.address2();
-     await CreatePage.city();
-     await CreatePage.state();
-     await CreatePage.postalCode();
-     await CreatePage.country();
      await CreatePage.additional();
-     await CreatePage.homePhone();
-     await CreatePage.mobilePhone();
+     await CreatePage.phoneNumbers();
      await CreatePage.assignAddress();
      await CreatePage.register();
 })
@@ -82,7 +71,6 @@ Then("should get pop-up Product successfully added to your shopping cart", async
 })
 When("click the Proceed to checkout button to navigate SHOPPING-CART SUMMARY page", async () => {
      await WomenCategoryPage.clickProceedToCheckout();
-     
 })
 Then("Should be navigated to {string} Page", async (headerText) => {
      await expect(CartSummaryPage.summaryPageHeaderElement).toHaveTextContaining(headerText)
@@ -100,7 +88,6 @@ When("click the Proceed to checkout botton of Address Page", async () => {
 Then("Should be navigated to {string} page", async (headerText) => {
      await expect(ShoppingPage.shoppingPageHeaderElement).toHaveTextContaining(headerText)
 })
-
 When("click the checkbox of Terms and conditions box", async () => {
      await ShoppingPage.clickAgreeCheckBox();
 })
@@ -113,11 +100,10 @@ Then("should be navigated to {string} Page", async (headerText) => {
 })
 When("select any one Payment method from display and click", async () => {
      await PaymentPage.clickPayByBankWire();
-     //await browser.pause(5000);
 })
 Then("should me navigate to {string}", async (headerText) => {
      await expect(OrderSummaryPage.orderSummaryPageHeader).toHaveTextContaining(headerText)
-     await expect(browser).toHaveUrlContaining("payment")   
+     await expect(browser).toHaveUrlContaining("payment")
 })
 When("click the CONFIRM MY ORDER button", async () => {
      await OrderSummaryPage.clickConfirmOrder();

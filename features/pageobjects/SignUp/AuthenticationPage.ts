@@ -1,4 +1,4 @@
-import Data from "../TestData/Data.json";
+import Data from "../../TestData/Data.json";
 import faker from 'faker';
 class AuthenticationPage{
     get authenticationHeader(){
