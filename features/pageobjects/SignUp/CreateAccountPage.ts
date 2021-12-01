@@ -1,6 +1,8 @@
-import Data from "../TestData/Data.json";
+import Data from "../../TestData/Data.json";
 import faker from 'faker';
 class CreatePage{
+
+     
 
     get createPageHeading(){
         return $("//h1[text()='Create an account']")
@@ -12,78 +14,69 @@ class CreatePage{
     get firstNameElement(){
         return $("#customer_firstname");
     }
-     first_Name = faker.name.firstName() 
-    async firstName(){
-       await  this.firstNameElement.setValue(this.first_Name);
-    }
     get lastNameElement(){
         return $("#customer_lastname")
     }
 
-    last_name = faker.name.lastName()
-    async lastName(){
-       await this.lastNameElement.setValue(this.last_name);
+     first_Name = faker.name.firstName()
+     last_Name = faker.name.lastName()
+
+    async firstNameAndlastName(){
+       await  this.firstNameElement.setValue(this.first_Name);
+       await this.lastNameElement.setValue(this.last_Name);
     }
-    get f_emailElement(){
-        return $("//input[@id='email']")
-    }
-    async f_email(){
-      await this.f_emailElement.setValue(Data.email);
-    }
+
     get passwordElement(){
         return $("//input[@id='passwd']");
     }
     async password(){
-      await  this.passwordElement.setValue(Data.password);
+      await this.passwordElement.setValue(faker.internet.password(8));
     }
     get  daysElement(){
         return $("//select[@id='days']")
     }
-    async days(){
-       await this.daysElement.selectByAttribute("value",Data.DateOfBirth.Day);
-    }
+    
     get  monthsElement(){
         return $("//select[@id='months']")
     }
-    async months(){
-        await this.monthsElement.selectByAttribute("value",Data.DateOfBirth.month)
-    }
+   
     get yearsElement(){
         return $("//select[@id='years']")
     }
-    async years(){
+   
+
+    async dateOfBirth(){
+        await this.daysElement.selectByAttribute("value",Data.DateOfBirth.Day);
+        await this.monthsElement.selectByAttribute("value",Data.DateOfBirth.month)
         await this.yearsElement.selectByAttribute("value",Data.DateOfBirth.years)
     }
     get newsLetterCheckBoxElement(){
         return $("//input[@type='checkbox' and @id='newsletter']")
     }
-    async clickLetterCheckBox(){
-        await this.newsLetterCheckBoxElement.click();
-        //await expect(this.newsLetterCheckBoxElement).toBeSelected();
-    }
-
+   
     get CheckBox2Element(){
         return $("//input[@type='checkbox' and @id='optin']")
     }
-    async CheckBox2(){
+    async click_CheckBoxes(){
+        await this.newsLetterCheckBoxElement.click();
         await this.CheckBox2Element.click();
-        //await expect(this.CheckBox2).toBeSelected();
+       
     }
 
     //========================================================================================================
 
-    get address_FirstNameElement(){
-        return $("[id='firstname']")
-    }
-    async address_firstName(){
-        await this.address_FirstNameElement.setValue(this.first_Name)
-    }
     get address_LastNameElement(){
         return $("[id='lastname']")
     }
-    async address_lastName(){
-        await this.address_LastNameElement.setValue(this.last_name)
+    get address_FirstNameElement(){
+        return $("[id='firstname']")
     }
+    async addressF_nameAndL_name(){
+        await this.address_FirstNameElement.setValue(this.first_Name)
+        await this.address_LastNameElement.setValue(this.last_Name);
+    }
+    
+   
 
     get companyElement(){
         return $("[id='company']")
@@ -94,42 +87,36 @@ class CreatePage{
     get addressElement(){
         return $("[id='address1']")
     }
-    async address(){
-        await this.addressElement.setValue(Data.Address)
-    }
-    get address2Element(){
+    
+    get address1Element(){
         return $("[id='address2']")
     }
-    async address2(){
-        await this.address2Element.setValue(Data.Address);
-    }
-
+   
     get cityElement(){
         return $("[id='city']")
     }
     
-    async city(){
-        await this.cityElement.setValue(Data.City)
-    }
     get stateElement(){
         return $("//select[@id='id_state']");
     }
-    async state(){
-        await this.stateElement.selectByVisibleText(Data.state)
-    }
-
+   
     get postalCodeElement(){
         return $("[id='postcode']");
     }
-    async postalCode(){
-        await this.postalCodeElement.setValue(Data.PostalCode)
-    }
+    
     get countryElement(){
         return $("[id='id_country']")
     }
-    async country(){
+    async address(){
+        await this.addressElement.setValue(Data.Address.address1)
+        await this.address1Element.setValue(Data.Address.address2);
+        await this.cityElement.setValue(Data.Address.City);
+        await this.stateElement.selectByVisibleText(Data.Address.state)
+        await this.postalCodeElement.setValue(Data.Address.PostalCode)
         await this.countryElement.selectByVisibleText("United States")
     }
+    
+    
 
     get additionalElement(){
         return $("//textarea[@name='other']") ;   
@@ -141,16 +128,15 @@ class CreatePage{
     get homePhoneElement(){
         return $("//input[@name='phone']")
     }
-    async homePhone(){
-        await this.homePhoneElement.setValue(Data.PhoneNumber)
-    }
-
+    
     get mobilePhoneElement(){
         return $("//input[@name='phone_mobile']")
     }
-    async mobilePhone(){
+    async phoneNumbers(){
+        await this.homePhoneElement.setValue(Data.PhoneNumber)
         await this.mobilePhoneElement.setValue(Data.PhoneNumber)
     }
+   
     get assignAddressElement(){
         return $("//input[@name='alias']")
     }
