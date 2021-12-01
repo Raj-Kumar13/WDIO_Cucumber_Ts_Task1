@@ -1,4 +1,4 @@
-# WebdriverIOJavaScriptMocha (v7)
+# WebdriverIOTypeScriptMocha (v7)
 This is a sample project that uses WebdriverIO, Cucumber Framework and TypeScript. It includes examples of the PageObject  design pattern and some practical.
 
 ## Requirements
